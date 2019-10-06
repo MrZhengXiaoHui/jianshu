@@ -9,7 +9,6 @@ const defaultState = fromJS({
 });
 
 export default (state = defaultState, action) => {
-    console.log(action);
     switch (action.type) {
         case constants.CHANGE_HOME_DATA:
             return state.merge({

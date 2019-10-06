@@ -4,6 +4,7 @@ import logoPic from '../../statics/logo.png';
 // 带样式的div
 export const HeaderWrapper = styled.div`
     position: relative;
+    z-index: 1;
     height: 56px;
     border-bottom: 1px solid #f0f0f0;
 `;
